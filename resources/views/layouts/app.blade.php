@@ -15,7 +15,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
     <!--google api -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbmFubDGVn-aK_rpo_PERWkHsUWbcy-x0&libraries=places"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyFCgj_d0V_RN-TkTI_TPp9lqbpkMQmN8&libraries=places"></script>
     
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
