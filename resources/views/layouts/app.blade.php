@@ -14,9 +14,9 @@
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--google api -->
+    <!--google api --> 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbmFubDGVn-aK_rpo_PERWkHsUWbcy-x0&libraries=places"></script>
-    
+
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
