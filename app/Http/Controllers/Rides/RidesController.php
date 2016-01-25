@@ -16,9 +16,9 @@ class RidesController extends Controller
      */
     public function index()
     {
-        //return view('Rides.createRide');
-        $json = json_decode(file_get_contents('https://maps.googleapis.com/maps/api/place/radarsearch/json?location=51.503186,-0.126446&radius=5000&types=museum&key=AIzaSyCZz4WFJKYOfEBd5IIFu_zQzcUgwFTd2gQ'), true);
-        dd($json);
+        return view('test');
+        // $json = json_decode(file_get_contents('https://maps.googleapis.com/maps/api/place/autocomplete/xml?input=netherlands&address=maasbree&key=AIzaSyCZz4WFJKYOfEBd5IIFu_zQzcUgwFTd2gQ'), true);
+        // dd($json);
     }
 
     /**
