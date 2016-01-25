@@ -16,9 +16,9 @@ class RidesController extends Controller
      */
     public function index()
     {
-        return view('Rides.createRide');
-        // $json = json_decode(file_get_contents('https://maps.googleapis.com/maps/api/place/autocomplete/json?input=Vict&types=geocode&language=fr&key=AIzaSyCh-_AOHRr74wOCccDH5Ynp09kgKAh4lj4'), true);
-        // dd($json);
+        //return view('Rides.createRide');
+        $json = json_decode(file_get_contents('https://maps.googleapis.com/maps/api/place/radarsearch/json?location=51.503186,-0.126446&radius=5000&types=museum&key=AIzaSyCZz4WFJKYOfEBd5IIFu_zQzcUgwFTd2gQ'), true);
+        dd($json);
     }
 
     /**
